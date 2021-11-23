@@ -1,0 +1,50 @@
+:root {
+--primary-color: cadetblue;
+--secondary-color: grey;
+--tertiary-color: darkorange;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flexH {
+    display: flex;
+}
+
+.flexV {
+    display: flex;
+    flex-direction: column;
+}
+
+.alignB {
+    align-items: baseline;
+}
+
+.justifyA {
+    justify-content: space-around;
+}
+
+.justifyC {
+    justify-content: center;
+}
+
+header {
+   background-color: var(--secondary-color);
+   color: var(--tertiary-color);
+}
+
+section {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
